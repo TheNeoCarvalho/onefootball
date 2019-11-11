@@ -1,0 +1,12 @@
+body {
+	background-color: #eee
+}
+
+.text {
+	font: 12px "Arial";
+}
+
+.navbar a {
+	color: rgba(0,255,0, 0.3);
+}
+
