@@ -1,5 +1,5 @@
 body {
-	background-color: #eee
+	background-color: #fff
 }
 
 .text {
@@ -10,3 +10,67 @@ body {
 	color: rgba(0,255,0, 0.3);
 }
 
+.card {
+	box-shadow: 	2px 5px 15px rgba(128, 128, 128, 0.5);
+	align-items: center;
+}
+
+.card .img {
+	margin-top: 30px;
+	width: 33%;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.top-news {
+	color: #fff;
+}
+
+.top-news h3 {
+	position: absolute;
+	bottom: 10px;
+	padding: 10px;
+}
+
+.zoom {
+	overflow: hidden;
+	background-color: rgb(9, 0, 87);
+}
+
+.zoom img{
+	transition: 0.5s;
+}
+
+.zoom:hover {
+	background-color: #000;;
+}
+
+.zoom:hover img {
+	object-fit: cover;
+	transform: scale(1.05);
+	transition: 0.5s;
+}
+
+.card-body {
+	background-color: #000;
+	color: #fff
+}
+
+
+.card-body .white{
+	background-color: #fff;
+	color: #000
+}
+.card-body .p {
+	font-weight: 900;
+}
+
+iframe {
+	 margin: 20px
+}
+
+.footer {
+	padding: 40px
+}
